@@ -1,0 +1,18 @@
+.show {
+  height: 600px;
+  border: 1px solid red;
+  font-size: 100px;
+  transition: 0.5s;
+  display: block;
+  opacity: 1;
+}
+.hidden {
+  height: 600px;
+  border: 1px solid red;
+  font-size: 200px;
+  opacity: 0;
+}
+
+.test-container {
+  height: 200vh;
+}

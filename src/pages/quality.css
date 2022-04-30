@@ -1,0 +1,117 @@
+.quality-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.quality-container-show {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  opacity: 1;
+  transition: 0.5s;
+}
+.quality-container-hidden {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+}
+
+.quality-cards {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.quality-card:nth-child(odd) {
+  display: flex;
+  flex-direction: row;
+}
+.quality-card:nth-child(even) {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.quality-card {
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.quality-img {
+  object-fit: scale-down;
+}
+
+.quality-title {
+  font-size: 45px;
+  font-weight: bold;
+}
+
+.quality-sub-title {
+  font-size: 30px;
+  text-align: center;
+  font-weight: bold;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  display: inline-block;
+  color: #0087ca;
+  margin: 0%;
+}
+
+/* .quality-sub-title:hover {
+  text-decoration: underline;
+} */
+.quality-content {
+  padding: 15px;
+  font-family: "Baloo Bhai 2", cursive;
+}
+
+/* .quality-card:hover .quality-sub-title {
+  background-color: aqua;
+} */
+
+/* .quality-sub-title::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #0087ca;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+  z-index: 10;
+}
+
+.quality-card:hover .quality-sub-title:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+} */
+
+.quality-sub-title-container {
+  display: inline-block;
+}
+
+.quality-underline {
+  display: inline-block;
+  width: 100%;
+  transform: scaleX(0);
+  transition: 0.5s;
+  height: 5px;
+  background-color: #0087ca;
+  transform-origin: left;
+  position: relative;
+  bottom: 5px;
+}
+
+.quality-card:hover .quality-underline {
+  width: 100%;
+  transform: scaleX(1);
+  transform-origin: left;
+}

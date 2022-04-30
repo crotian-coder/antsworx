@@ -1,0 +1,215 @@
+.goal-container {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid red; */
+}
+
+.goal-sub-container {
+  display: flex;
+  height: 100%;
+  width: 100%;
+
+  justify-content: center;
+  align-items: center;
+}
+.vision-sub-container-show {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+
+  justify-content: center;
+  align-items: center;
+  opacity: 1;
+  transition: 0.5s;
+  left: 0;
+}
+.vision-sub-container-hidden {
+  opacity: 0;
+  position: absolute;
+  left: -100px;
+  overflow-x: hidden;
+}
+
+.goal-sub-container-show {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+
+  justify-content: center;
+  align-items: center;
+  opacity: 1;
+  transition: 0.5s;
+  left: 0;
+}
+.goal-sub-container-hidden {
+  opacity: 0;
+  position: absolute;
+  left: -100px;
+  overflow-x: hidden;
+}
+
+.goal-mission {
+  width: 100%;
+  height: 50%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 10%;
+}
+
+.who-content {
+  width: 100%;
+  height: 50%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.goal-vision {
+  width: 100%;
+  height: 50%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.goal-vision-show {
+  width: 100%;
+  height: 50%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  opacity: 1;
+  transition: 1s;
+  margin-top: 0;
+}
+.goal-vision-hidden {
+  width: 100%;
+  height: 50%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  opacity: 0;
+  margin-top: 200px;
+}
+
+.goal-mission-container {
+  width: 100%;
+  height: 100%;
+  /* border: 2px solid red; */
+}
+
+.goal-mission-title {
+  font-family: "Roboto", sans-serif;
+}
+
+.goal-mission-content {
+  display: flex;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 80%;
+  height: 80%;
+  padding: 5px;
+}
+
+.mission-img {
+  object-fit: contain;
+}
+.vision-img {
+  object-fit: scale-down;
+  margin-top: 10%;
+}
+
+.vision-img-show {
+  object-fit: scale-down;
+  margin-top: 10%;
+  opacity: 1;
+  transition: 1s;
+  position: absolute;
+  left: 0;
+}
+.vision-img-hidden {
+  object-fit: scale-down;
+  margin-top: 10%;
+  opacity: 0;
+  position: absolute;
+  left: -100px;
+}
+
+.who-img {
+  object-fit: scale-down;
+}
+
+.who-title {
+  font-size: 40px;
+}
+
+.culture-content {
+  padding: 20px;
+}
+
+.culture-footer-img {
+}
+
+.culture-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.goal-vision-container-hidden {
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+}
+
+.goal-vision-container-show {
+  opacity: 1;
+  width: 100%;
+  height: 100%;
+}
+
+.goal-vision-content-points {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 6px 10px;
+  margin: 0;
+}
+
+.point-icon {
+  background-color: rgb(68, 71, 234);
+  height: 100%;
+  padding: 0 10px;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+    rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
+.goal-vision-content-points-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+    rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+
+  margin: 0;
+  margin: 10px 0;
+}
